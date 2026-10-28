@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Mi Tienda",
+    "slug": "mi-tienda-mobile",
+    "scheme": "mitienda",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "La app necesita acceder a tus fotos para elegir una imagen de perfil.",
+          "cameraPermission": "La app necesita usar la cámara para sacar una foto de perfil."
+        }
+      ],
+      "expo-status-bar"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.estudiante.mitienda"
+    }
+  }
+}
