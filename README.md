@@ -67,13 +67,3 @@ src/
   styles/
 ```
 
-## Gestos
-
-El asa “Mover” activa el drag and drop en Favoritos. Deslizar una fila hacia la izquierda revela la acción de eliminar. Se separaron las zonas para que el gesto de mover no compita directamente con el swipe.
-
-## Antes de entregar
-
-- Pegar la URL real de mockAPI.
-- Ejecutar `npx expo install --fix` y `npx expo-doctor`.
-- Probar en un dispositivo/emulador la galería, cámara, swipe y arrastre.
-- Confirmar que el entorno instalado tiene una versión de Expo Go compatible con SDK 58.
